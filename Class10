@@ -1,0 +1,14 @@
+""""
+Concatenação 
+
+Soma de str e multiplicação de str com int
+
+"""
+
+concatenacao = 'A' + 'B' + 'C'
+print(concatenacao)
+
+a_dez_vezes = 'A' * 10
+tres_vezes_davi = 3 * 'Davi'
+print(a_dez_vezes)
+print(tres_vezes_davi)
