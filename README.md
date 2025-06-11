@@ -1,2 +1,2 @@
 # PythonCurse
-just my evolution
+just myself
