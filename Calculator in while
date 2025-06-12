@@ -1,0 +1,28 @@
+while True:
+    n1 = int(input('Put a number: '))
+    n2 = int(input('Put other number: '))
+    operador = input('Choose a account just */-+: ')
+
+    operadorespermitidos = '*/+-'
+
+    if operadorespermitidos not in operador:
+        print('only valid operators')
+    
+    if len(operador) > 1:
+        print('Only one operator')
+
+    if operador == '+':
+        print(f'The sum of {n1} and {n2} is {n1 + n2}')
+
+    elif operador == '-':
+        print(f'The diference of {n1} and {n2} is {n1 - n2}')
+
+    elif operador == '*':
+        print(f'the {n1} raised to the {n2} is {n1 ** n2}')
+
+    elif operador == '/':
+        try:
+            print(f'The {n1} divided by {n2} is {n1 / n2}')
+        except ValueError:
+            print('Numbers dont divide by 0')
+    break
