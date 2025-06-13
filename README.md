@@ -1,2 +1,2 @@
-# PythonCurse
-just myself
+# Python
+
